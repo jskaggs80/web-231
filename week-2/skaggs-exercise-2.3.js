@@ -42,6 +42,7 @@ function myName() {
 
 // output 
 console.log('\n'); 
+console.log(header.display("Jake", "Skaggs", "Exercise 2.3") + "\n");
 console.log(myName());
 
 
