@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  skaggs-exercise-2.2.js
+; Title:  skaggs-exercise-2.3.js
 ; Author: Professor Krasso 
 ; Date:   24 May 2018
 ; Modified By: Jake Skaggs
