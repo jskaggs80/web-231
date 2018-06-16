@@ -42,11 +42,11 @@ var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"]
 
 // function
 function getValue(x, val) {
-    for (var i = 0; i < x.length; i++){
-        if (x[i] === val) {
-            console.log(x[i]);
+    for (var i = 0; i < states.length; i++){
+        if (x[i] === val) {            
+            return val;
         }
-    }
+    }   
 }
 
 
@@ -64,7 +64,8 @@ var s = states.join(" " + "\n");
 console.log(s);
 //Selected Value
 console.log("\n" + "-- SELECTED VALUE --")
-getValue(states, "Nebraska");
+console.log(getValue(states, "Nebraska"));
+var state = states.filter(getValue);
 
 
 // end program
