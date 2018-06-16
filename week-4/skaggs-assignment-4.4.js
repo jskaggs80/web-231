@@ -64,8 +64,9 @@ var s = states.join(" " + "\n");
 console.log(s);
 //Selected Value
 console.log("\n" + "-- SELECTED VALUE --")
-console.log(getValue(states, "Nebraska"));
 var state = states.filter(getValue);
+console.log(getValue(states, "Nebraska"));
+
 
 
 // end program
