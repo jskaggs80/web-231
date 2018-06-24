@@ -66,7 +66,7 @@ var famousComposers = [
 ];
 
 //output
-console.log(header.display("Jake", "Skaggs", "Exercise 5.2") + "\n");
+console.log(header.display("Jake", "Skaggs", "Exercise 5.3") + "\n");
 
 famousComposers.forEach(function(composer){
     console.log('Name: ' + composer.firstName + ' ' + composer.lastName + ', Genre: ' + composer.genre + ', Rating: ' + composer.rating)
