@@ -10,7 +10,7 @@
 
 var header = require('../header.js');
 
-var header = require('../header.js');
+
 
 /*
  Expected output:
