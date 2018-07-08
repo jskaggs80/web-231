@@ -42,6 +42,6 @@ var ticket = {
 
 console.log(header.display("Jake", "Skaggs", "Assigment 6.4") + "\n");
 
-console.log("Ticket " + ticket.id + " was create on " + ticket.date + " and assigned to employee " + ticket.person.fName + " " + ticket.person.lName + " (" + ticket.person.title + ").");
+console.log("Ticket " + ticket.id + " was create on " + ticket.date + " and assigned to employee " + ticket.person.fName + " " + ticket.person.lName + " (" + ticket.person.title + ")!");
 
 // end program
