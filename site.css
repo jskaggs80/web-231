@@ -1,0 +1,6 @@
+#list table, th, td {
+    border: 1px solid black;    
+ }
+
+ #list tr:nth-child(even) {background-color: #4789c7;};
+ #list tr:nth-child(odd) {background-color: #81a4c7;};
